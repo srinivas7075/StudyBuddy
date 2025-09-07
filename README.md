@@ -30,3 +30,12 @@ This shows how agents can work **independently** and then **collaborate** throug
 5. Orchestrator (`main.py`) coordinates agents and displays results.
 
 ## 📂 Project Structure
+```bash
+StudyBuddy/
+├── agents.py # Defines Planner, Summarizer, and Quiz Agents
+├── llm_client.py # Handles LLM calls (OpenAI/HuggingFace)
+├── main.py # Orchestrator that coordinates all agents
+├── requirements.txt # Project dependencies
+├── README.md # Documentation
+└── venv/ # Virtual environment (ignored by git)
+```
